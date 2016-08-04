@@ -1,0 +1,11 @@
+{
+  "name": "menogenix",
+  "version": "1.0.0",
+  "description": "menogenic website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "carol@creationchamber.com",
+  "license": "ISC"
+}
