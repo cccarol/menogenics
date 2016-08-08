@@ -1,0 +1,115 @@
+header {
+	width: 100%;
+	position: relative;
+	z-index: 10;
+	
+	.logo {
+		float: left;
+		display: inline-block;
+		padding: 20px 0;
+
+		a {
+			img {
+				width: 160px;
+				@media screen and (max-width: $tablet) {
+					width: 95px;
+					margin: 0;
+				}
+			}
+		}
+	}
+
+	nav {
+		float: right;
+
+		ul {
+			margin: 0;
+			padding: 0;
+
+			li {
+				display: inline-block;
+				margin: 0 10px;
+
+				@media screen and (max-width: $tablet) {
+					display: none;
+				}
+
+				a {
+					color: $secondary-color;
+					font-size: 18px;
+					border-bottom: 3px solid transparent;
+					display: inline-block;
+					padding: 54px 0;
+
+					&:hover {
+						border-color: $primary-color;
+						color: $secondary-color;
+					}
+				}
+			}
+		}
+
+		&.opened {
+			display: block;
+			position: absolute;
+			top: 80px;
+			right: 0;
+			left: -5%;
+			right: -5%;
+			padding: 10px 0; 
+
+			li {
+				display:block;
+				text-align: center; 
+				margin: 0;
+
+				a {
+					padding: 10px;
+					display: block;
+					color: $white;
+					background: rgba($primary-color, .9);
+
+					&:focus, &:hover {
+						border-color: transparent;
+						background: lighten($primary-color, 10%);
+						color: $white;
+					}
+				}
+			}
+		}
+	}
+
+
+	.menu {
+		float: right;
+		display: none;
+		padding: 30px 0 30px 20px;
+		
+		@media screen and (max-width: $tablet) {
+			display: block;
+		}
+
+		a {
+			position: relative;
+			span {
+				width: 30px;
+				height: 30px;
+				display: block;
+				position: relative;
+
+				&:before  {
+					content: "";
+					position: absolute;
+					right: 0;
+					top: 5px;
+					width: 26px;
+					height: 3px;
+					background: $primary-color;
+					box-shadow: 
+					0 14px 0 0 $primary-color,
+					0 7px 0 0 $primary-color;
+				}
+			}
+		}
+	}
+}

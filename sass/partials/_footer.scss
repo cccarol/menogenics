@@ -1,0 +1,32 @@
+footer {
+	background: $secondary-color;
+	padding: 30px 0; 
+
+	p, h5, a {
+		color: $white; 
+	}
+
+	p {
+		font-size: 13px;
+	}
+
+	form {
+		input[type="text"] {
+			width: calc(100% - 95px);
+			display: inline-block;
+			float: left;
+		}
+
+		button {
+			display: inline-block;
+			padding: 11px 16px 11px;
+    		font-size: 19px;
+		}
+	}
+
+	.copy {
+		opacity: .4;
+		margin:  30px 0 0;
+	}
+
+}

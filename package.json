@@ -1,11 +1,15 @@
 {
-  "name": "menogenix",
+  "name": "foundation",
   "version": "1.0.0",
-  "description": "menogenic website",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
+  "description": "Gulp, Sass, and Livereload Website Starter",
   "author": "carol@creationchamber.com",
-  "license": "ISC"
+  "license": "proprietary",
+  "private": true,
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-sass": "^2.3.2"
+  }
 }

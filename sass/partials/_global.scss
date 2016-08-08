@@ -1,0 +1,161 @@
+html {
+    font-size: $base__font-size;
+
+
+    body {
+        line-height: $base__line-height;
+        font-size: 15px;
+        color: $body-font-color;
+        font-family: $font-family--primary;
+        font-weight: $font-weight--normal;
+        background: url(../images/bg-tan.jpg) fixed right bottom no-repeat;
+        background-size: 100% 100%;
+
+        @media screen and (max-width: $tablet) {
+            font-size: 13px;
+        }
+    }
+}
+a img {
+    /* Stops ie from displaying a blue box around linked images */
+    outline:0;
+    border:0;
+}
+
+a {
+    text-decoration: none;
+    color: $primary-color;
+
+    &.link {
+        font-family: $font-family--secondary;
+        font-style: italic;
+    }
+}
+
+img {
+    @media screen and (max-width: 641px) {
+        margin-bottom: 20px;
+    }
+}
+
+.ieblock {
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+    font-size: 20px;
+    background: $black;
+    color: $white;
+    padding: 30px;
+    position: absolute;
+    z-index: 10; 
+    left: 0;
+    top: 0;
+}
+
+
+// Forms . 
+
+input:not([type]), input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"] {
+    height: 45px;
+}
+
+.button, button {
+    background-color: $primary-color;
+}
+
+
+// Text . 
+
+h1, h2, h3, h4, h5, p, ul, ol {
+    margin: 0 0 20px;
+}
+
+h1, h2, h3, h4, h5 {
+    color: $secondary-color;
+    font-weight: $font-weight--normal;
+}
+
+h1 {
+
+}
+
+.inner h1, .home h2 {
+    font-size: 24px;
+    font-family: $font-family--secondary;
+
+    &:after {
+        content: '';
+        display: block;
+        height: 1px;
+        width: 100%;
+        background: rgba($secondary-color, .2);
+        box-shadow: 0 1px 0 $white;
+        margin: 20px 0 0 ;
+    }
+
+}
+
+h2 {
+    font-size: 18px;
+    font-family: $font-family--secondary;
+}
+
+h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+h4 {
+
+}
+
+h5 {
+    font-size: 18px;
+    font-family: $font-family--secondary;
+}
+
+// Misc
+
+.bg-white {
+    background: rgba($white, .8);
+    padding: 20px;
+    border: 1px solid $grey;
+
+    @media screen and (max-width: $tablet) {
+        margin-bottom: 20px;
+    }
+}
+
+
+// Structure . 
+
+section {
+    margin: 0 0 50px;
+}
+
+// Aside  .
+
+aside {
+    ul {
+        margin: 0 0 20px;
+        padding: 0;
+        list-style: none;
+
+        li {
+            margin: 0;
+            padding: 0;
+            border-bottom: 1px solid $white;
+            box-shadow: 0 1px 0 0 $tan;
+
+            a {
+                padding: 10px;
+                color: $body-font-color;
+                display: block;
+                &:hover {
+                    background: $primary-color;
+                    color: $white;
+                }
+            }
+        }
+    }
+}

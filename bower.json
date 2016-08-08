@@ -1,0 +1,24 @@
+{
+  "name": "foundation",
+  "description": "Gulp, Sass, and Livereloader Website Starter",
+  "main": "",
+  "authors": [
+    "carol@creationchamber"
+  ],
+  "license": "proprietary",
+  "homepage": "private",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "^5.5.3",
+    "slick-carousel": "slick.js#^1.6.0",
+    "jquery-migrate": "^3.0.0",
+    "font-awesome": "^4.6.3"
+  }
+}

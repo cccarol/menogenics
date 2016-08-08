@@ -1,0 +1,38 @@
+// Set font families
+$font-family--primary      : 'Karla', sans-serif; 
+$font-family--secondary    : 'Martel', serif;
+
+/*font-family: 'Work Sans', sans-serif;
+font-family: 'Martel', serif;
+font-family: 'Amiri', serif;
+font-family: 'Karla', sans-serif;*/
+
+// Set font weights
+$font-weight--light       : 200;
+$font-weight--normal      : 300;
+$font-weight--meduim      : 400;
+$font-weight--bold        : 600;
+
+// Set color
+$black                    : #2e2f2a;
+$white                    : #ffffff;
+
+// Brand Colors 
+$tan					  : #e0d9c7;
+$brown					  : #3a3732;
+$blue					  : #107889;
+$grey					  : #c9c9c9;
+
+// Set main colors
+$primary-color            : $blue;
+$secondary-color          : $brown;
+
+$body-font-color          : $black;
+
+// Set font size
+$base__font-size          : 100%;
+$base__line-height		  : 1.6;
+
+
+// These are the breaks
+$tablet					  : 786px;

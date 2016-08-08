@@ -1,0 +1,21 @@
+// To add more : Refer to Public ../public/vendor/foundation/scss/
+
+@import "../public/vendor/foundation/scss/foundation/components/grid";
+@import "../public/vendor/foundation/scss/foundation/components/block-grid";
+@import "../public/vendor/foundation/scss/foundation/components/clearing";
+@import "../public/vendor/foundation/scss/foundation/components/top-bar";
+// @import "../public/vendor/foundation/scss/foundation/components/type";
+@import "../public/vendor/foundation/scss/foundation/components/visibility";
+@import "../public/vendor/foundation/scss/foundation/components/buttons";
+
+// Foundation Adjustments . 
+
+.row {
+	max-width: 1150px;
+	
+	&.outer {
+		margin: 0 auto;
+		width: 90%;
+	}
+}
+
